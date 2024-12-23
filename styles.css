@@ -1,0 +1,133 @@
+body {
+    background-color: burlywood;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+div#wrapper {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    width: 500px;
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: darkblue;
+    margin: 0 0 20px 0;
+}
+
+input[type="text"] {
+    margin: 10px 0 0 30px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(50% - 30px);
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    color: white;
+    background-color: brown;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px 30px 0 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: gray;
+}
+
+ul#todo_list {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 30px 0;
+}
+
+ul#todo_list li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.2s ease;
+}
+
+/*ul#todo_list li:hover {
+    transform: scale(1.02);
+}*/
+
+span.delete {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease, transform 0.2s ease;
+}
+
+.delete:hover {
+    background-color: #e60000;
+    transform: scale(1.05);
+}
+
+ 
+
+select {
+    padding: 5px;
+    font-size: 14px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button#clear-Btn {
+    margin: 10px;
+    padding: 5px 10px;
+    background-color: #ff6666;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button#clear-Btn {
+    background-color: rgb(88, 88, 165);
+}
+
+button#clear-Btn:hover {
+    background-color: grey;
+}
+
+.task-text {
+    font-size: 16px; 
+    color: #333;      
+    font-weight: bold;
+    background-color: none;
+}
+
+#dueDate {
+    font-size: 15px;
+    transition: background-color 0.3s ease; 
+}
+
